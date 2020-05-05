@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		7391E3832460677800357D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391E3822460677800357D83 /* AppDelegate.swift */; };
 		7391E3852460677800357D83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391E3842460677800357D83 /* SceneDelegate.swift */; };
-		7391E3872460677800357D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391E3862460677800357D83 /* ViewController.swift */; };
 		7391E38A2460677800357D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7391E3882460677800357D83 /* Main.storyboard */; };
 		7391E38C2460677C00357D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7391E38B2460677C00357D83 /* Assets.xcassets */; };
 		7391E38F2460677C00357D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7391E38D2460677C00357D83 /* LaunchScreen.storyboard */; };
+		7391E3992461E44500357D83 /* BaseTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391E3982461E44500357D83 /* BaseTableview.swift */; };
+		7391E39B246206FF00357D83 /* ChildTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391E39A246206FF00357D83 /* ChildTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7391E37F2460677800357D83 /* IosGenericTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosGenericTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7391E3822460677800357D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7391E3842460677800357D83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7391E3862460677800357D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7391E3892460677800357D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7391E38B2460677C00357D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7391E38E2460677C00357D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7391E3902460677C00357D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7391E3982461E44500357D83 /* BaseTableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableview.swift; sourceTree = "<group>"; };
+		7391E39A246206FF00357D83 /* ChildTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				7391E3822460677800357D83 /* AppDelegate.swift */,
 				7391E3842460677800357D83 /* SceneDelegate.swift */,
-				7391E3862460677800357D83 /* ViewController.swift */,
 				7391E3882460677800357D83 /* Main.storyboard */,
 				7391E38B2460677C00357D83 /* Assets.xcassets */,
 				7391E38D2460677C00357D83 /* LaunchScreen.storyboard */,
 				7391E3902460677C00357D83 /* Info.plist */,
+				7391E3982461E44500357D83 /* BaseTableview.swift */,
+				7391E39A246206FF00357D83 /* ChildTableViewController.swift */,
 			);
 			path = IosGenericTableview;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7391E3872460677800357D83 /* ViewController.swift in Sources */,
+				7391E3992461E44500357D83 /* BaseTableview.swift in Sources */,
 				7391E3832460677800357D83 /* AppDelegate.swift in Sources */,
+				7391E39B246206FF00357D83 /* ChildTableViewController.swift in Sources */,
 				7391E3852460677800357D83 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
