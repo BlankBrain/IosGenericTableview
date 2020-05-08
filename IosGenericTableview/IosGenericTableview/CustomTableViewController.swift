@@ -9,12 +9,6 @@
 import UIKit
 
 class CustomTableViewController: BaseTableViewController <CustomTableViewCell  , Cat>  {
-
-  
-    @IBOutlet var name: UILabel!
-    @IBOutlet var breed: UILabel!
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
